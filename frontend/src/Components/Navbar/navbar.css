@@ -1,0 +1,52 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    padding: 10px 20px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background:rgba(61, 63, 63, 0.498);
+  }
+  
+  .nav-home ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-home li {
+    margin-right: 20px;
+  }
+  .nav-home li a:hover{
+    color: rgb(61, 61, 56);
+  }
+  
+  .nav-home a {
+    text-decoration: none;
+    color: #d9e0e8;
+    font-weight: bold;
+  }
+  
+  .nav-admin {
+    margin-right: 30px;
+  }
+  
+  .ant-dropdown-link {
+    cursor: pointer;
+    color: #dce2e8;
+    font-weight: bold;
+  }
+  
+  .dropdown-menu {
+    background-color: rgb(43, 153, 226);
+    color: white;
+    margin-top: 10px;
+  }
+  
