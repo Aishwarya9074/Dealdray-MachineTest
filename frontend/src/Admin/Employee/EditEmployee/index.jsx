@@ -44,7 +44,7 @@ const EditEmployee = () => {
                 formData.append(key, edit[key]);
             }
             console.log('FormData being sent:', formData);
-            await axios.patch(`/employees/${employee._id}`, formData, {
+            await axios.patch(`/admin/employees/${id}`, formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }
